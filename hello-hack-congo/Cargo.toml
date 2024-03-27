@@ -1,0 +1,12 @@
+[package]
+name = "hello-hack-congo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "hello_hack_congo"
+crate-type = ["cdylib"]
